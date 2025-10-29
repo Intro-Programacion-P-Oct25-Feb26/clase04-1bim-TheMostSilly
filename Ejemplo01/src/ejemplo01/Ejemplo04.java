@@ -18,7 +18,7 @@ public class Ejemplo04 {
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
-        // println ejecuta un conjunto de variables, mientras que print lo hace de forma separada (saltando lineas)
+        // print ejecuta un conjunto de variables, mientras que println lo hace de forma separada (saltando lineas)
         
         System.out.println("---------------");
         System.out.println(nombreEstudiante + " ");

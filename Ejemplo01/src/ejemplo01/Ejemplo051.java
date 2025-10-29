@@ -11,7 +11,7 @@ package ejemplo01;
  *
  * @author reroes
  */
-public class Ejemplo05 {
+public class Ejemplo051 {
     public static void main(String[] args) {
         // Secuencia de escape \n y \t
         String nombreEstudiante = "René Rolando";
@@ -28,6 +28,6 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
-        // \
+        // \t hace tabulador de 4 lineas y \n hace salto de linea
     }
 }
