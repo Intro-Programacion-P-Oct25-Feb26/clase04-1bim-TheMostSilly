@@ -31,7 +31,7 @@ public class Ejemplo11 {
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
 
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f",
+        System.out.printf("Asignatura 1: %s\nNota 1:%.1f",
                 nombreAsignatura1,
                 notaAsignatura1
         );
