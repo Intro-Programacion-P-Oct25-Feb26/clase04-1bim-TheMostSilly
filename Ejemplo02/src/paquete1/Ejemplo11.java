@@ -31,6 +31,7 @@ public class Ejemplo11 {
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
 
+        // %.2f significa: que voy a recibir un decimal que se va a presentar con dos decimales
         System.out.printf("Asignatura 1: %s\nNota 1:%.1f",
                 nombreAsignatura1,
                 notaAsignatura1
