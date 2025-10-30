@@ -34,7 +34,7 @@ public class Ejemplo0311 {
         System.out.println("Ingrese el ciclo académico en número");
         ciclo = entrada.nextInt();
         
-        System.out.printf("Datos del estudiante\n%s\n%s\n%d\n%d\n", 
+        System.out.printf("Datos del estudiante\nNombre: %s\nApellido: %s\nAño de nacimiento: %d\nCiclo academico: %d\n", 
                 nombre,
                 apellido,
                 nacimiento,
