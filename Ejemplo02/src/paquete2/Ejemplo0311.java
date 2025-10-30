@@ -12,6 +12,7 @@ import java.util.Scanner;
  * @author reroes
  */
 public class Ejemplo0311 {
+
     public static void main(String[] args) {
         // Ingreso de datos por teclado
         // uso de la clase Scanner
@@ -20,28 +21,35 @@ public class Ejemplo0311 {
         String apellido;
         int nacimiento;
         int ciclo;
-                
+        String direccion;
+        
+
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
-                                    // por teclado
-        
+        // por teclado
+
         System.out.println("Ingrese el apellido del estudiante");
         apellido = entrada.nextLine();
-        
+
         System.out.println("Ingrese el año de nacimiento del estudiante");
         nacimiento = entrada.nextInt();
-        
+
         System.out.println("Ingrese el ciclo académico en número");
         ciclo = entrada.nextInt();
+        entrada.nextLine();
+        
+        System.out.println("Ingrese la dirección");
+        direccion = entrada.nextLine();
         
         System.out.printf("Datos del estudiante\nNombre: %s\nApellido: "
-                + "%s\nAño de nacimiento: %d\nCiclo academico: %d\n", 
+                + "%s\nAño de nacimiento: %d\nCiclo academico: %d\nDireccion: %s\n",
                 nombre,
                 apellido,
                 nacimiento,
-                ciclo);
-        
-        // Hemos cambiado el último porcentaje s por porcentaje d de la ultima cadena ya que nacimiento es una variable entera.
-        
+                ciclo,
+                direccion);
+
+        // Hemos cambiado el último porcentaje s por porcentaje d de la ultima cadena 
+        //ya que nacimiento es una variable entera.
     }
 }
